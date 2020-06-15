@@ -9,6 +9,6 @@
 
 (package! prettier-js)
 
-(package! hoon-mode :recipe (:host github :repo "liam-fitzgerald/hoon-mode.el" :branch "lang-server"))
+(package! hoon-mode :recipe (:host github :repo "urbit/hoon-mode.el"))
 
 (package! org-cliplink)

@@ -20,6 +20,7 @@
 (setq display-line-numbers-type 'relative)
 
 
+
 (setq twittering-use-master-password t)
 (setq +mu4e-backend 'offlineimap)
 
@@ -84,6 +85,7 @@
                   :test-suffix ".spec"))
 
 (add-hook 'hoon-mode-hook #'lsp)
+;;
 
 (eval-after-load "prettier-js" '(progn
 
